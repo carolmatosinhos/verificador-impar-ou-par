@@ -10,7 +10,7 @@ function verify() {
     if (valor % 2 == 0) {
       result.innerHTML = "<strong>O número " + valor + " é par</strong>";
     } else {
-      result.innerHTML = "É impar";
+      result.innerHTML = "<strong>O número " + valor + " é ímpar</strong>";
     }
   }
   else {
